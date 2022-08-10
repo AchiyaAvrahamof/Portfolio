@@ -24,6 +24,35 @@ html{
     justify-content: center;
 
 }
+@media only screen and (max-width: 768px){
+
+  #about {
+    width: 100%;
+    height: 100%vh;
+    margin: 0 auto;
+    flex-direction: row;
+    background: #355C7D;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #C06C84, #6C5B7B, #355C7D);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #C06C84, #6C5B7B, #355C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin-left: 0%;
+margin-right: 0%;
+}
+.about-img{
+  width: 0%;
+
+}
+
+.services .services-info {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+}
 #imghreo{
   visibility: hidden;
   height: 0%;
@@ -574,14 +603,11 @@ background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+
   border-radius: 10px;
 }
 /*end*/
+
+
+
 }
-.about {
-    width: 100%;
-    min-height: 50vh;
-    padding: 10rem 5rem;
-    flex-direction: column;
-    
-}
+
 .about .about-info .about-info-heading {
     font-size: 5rem;
     text-transform: uppercase;
@@ -609,12 +635,18 @@ background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+
     letter-spacing: .2rem;
     margin-top: 20px;
     margin-bottom: 20px;}
+    
     @media only screen and (min-width: 768px){
-.about .about-info {
-    width: 50%;
-    text-align: center;
-    padding-right: 17rem;
-}}
+      .about .about-info {
+        width: 50%;
+        text-align: center;
+        padding-right: 17rem;
+    }
+
+
+}
+
+
 .about .about-img .about-img-wrapper img {
     height: 100%;
     width: 100%;
@@ -645,7 +677,8 @@ height: 90vh;
 }
 @media only screen and (max-width: 772px){
   .services {
-    
+    height: 150vh;
+    padding-right: 10rem;
   
   }
 
