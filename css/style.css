@@ -678,10 +678,9 @@ height: 90vh;
 @media only screen and (max-width: 772px){
   .services {
     height: 150vh;
-    padding-right: 10rem;
-  
+  padding: 0;
   }
-
+  
 }
 .services .services-header {
 	width: 100%;
@@ -784,7 +783,7 @@ height: 90vh;
 
 .services .services-info {
     flex-direction: row;
-    width: 80%;
+    width: 100%;
 }
 
 
